@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .flag{
+      height: 600px;
+      width: 900px;
+      background-color: rgb(191, 9, 9);
+    }
+    .flag > div{
+      background-color: navy;
+      height: 200px;
+      padding: 45px;
+      position: relative;
+      top: 10%;
+    }
+
+    .flag>div>div{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      left: 350px;
+      top: 35px;
+    }
+
+    p{
+      text-align: center;
+      font-size: 5rem;
+      padding: 0;
+      margin: 0;
+      color: white;
+    }
+
+    .flag>div>div p{
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
